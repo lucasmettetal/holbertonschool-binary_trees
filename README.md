@@ -89,8 +89,8 @@ All code is validated using the Betty style checker (Holberton's C code style gu
 
 ## Author
 
-Lucas Mettetal
-Lorenzo Anselme
+- Lucas Mettetal
+- Lorenzo Anselme
 
 ## License
 
