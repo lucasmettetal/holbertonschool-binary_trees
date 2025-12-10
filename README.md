@@ -19,7 +19,15 @@ This project demonstrates core data structures and algorithms for working with b
 ├── 7-binary_tree_inorder.c        # Inorder traversal
 ├── 8-binary_tree_postorder.c      # Postorder traversal
 ├── 9-binary_tree_height.c         # Calculate tree height
+├── 10-binary_tree_depth.c         # Calculate node depth
 ├── 11-binary_tree_size.c          # Calculate tree size
+├── 12-binary_tree_leaves.c        # Count leaf nodes
+├── 13-binary_tree_nodes.c         # Count nodes with at least one child
+├── 14-binary_tree_balance.c       # Calculate balance factor
+├── 15-binary_tree_is_full.c       # Check if tree is full
+├── 16-binary_tree_is_perfect.c    # Check if tree is perfect
+├── 17-binary_tree_sibling.c       # Find node's sibling
+├── 18-binary_tree_uncle.c         # Find node's uncle
 ├── binary_trees.h                 # Header file with structure definitions
 └── Betty/                         # Code style checker (Holberton style guide)
 ```
@@ -56,7 +64,15 @@ typedef struct binary_tree_s
 - `int binary_tree_is_leaf(const binary_tree_t *node)` - Check if node is leaf
 - `int binary_tree_is_root(const binary_tree_t *node)` - Check if node is root
 - `size_t binary_tree_height(const binary_tree_t *tree)` - Get tree height
+- `size_t binary_tree_depth(const binary_tree_t *node)` - Get node depth
 - `size_t binary_tree_size(const binary_tree_t *tree)` - Get tree size
+- `size_t binary_tree_leaves(const binary_tree_t *tree)` - Count leaf nodes
+- `size_t binary_tree_nodes(const binary_tree_t *tree)` - Count nodes with at least one child
+- `int binary_tree_balance(const binary_tree_t *tree)` - Get tree balance factor
+- `int binary_tree_is_full(const binary_tree_t *tree)` - Check if tree is full
+- `int binary_tree_is_perfect(const binary_tree_t *tree)` - Check if tree is perfect
+- `binary_tree_t *binary_tree_sibling(binary_tree_t *node)` - Find node's sibling
+- `binary_tree_t *binary_tree_uncle(binary_tree_t *node)` - Find node's uncle
 
 ### Tree Traversals
 - `void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))` - Preorder traversal
